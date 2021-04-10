@@ -7,7 +7,7 @@ pipeline {
             echo 'Downloading the Code'
             git url: 'https://github.com/learnaws7425/personalWebSite.git'
             sh "whoami"
-            sh "sudo apt-get install -y apache5"
+            sh "sudo apt-get install -y apache3"
             echo 'Installed the code and Starting the RUN'
          }
       }
